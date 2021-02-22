@@ -26,11 +26,14 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    #externalaaps
+    #EXTERNAL APPS
     'rest_framework',
     'django_rest_passwordreset',
     'knox',
+
+    #APPS
     'accounts',
+    'tasks',
 ]
 
 MIDDLEWARE = [
